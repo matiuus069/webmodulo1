@@ -1,0 +1,91 @@
+html, body {
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.2em;
+    padding: 0 ;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+    background-color: #f46524 ;
+    color: #fff;
+}
+
+
+h1, h2 {
+    font-weight: normal;
+
+}
+
+a:link, a:visited, a:active{
+    color: #f46524;
+}
+
+a:hover {
+    color: #f9a577;
+}
+
+main, section {
+    margin: 2rem 0;
+    padding: 2rem;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#section-Knowledge {
+    background-color:  #ccc;
+}
+
+#imgPortfolio {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.progress-bar {
+    color:  white;
+    text-align: center;
+}
+
+#section-contact {
+    text-align: center;
+}
+#section-contact a {
+    text-decoration: none;
+}
+#section-contact a::before {
+    content: "[";
+}
+#section-contact a::after {
+    content: "]"
+}
+
+#section-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#section-contact ul li {
+    display: inline;
+    margin: 0 3rem;
+}
+
+#section-contact form {
+    padding:0 10rem;
+    }
+
+#section-contact input,
+#section-contact textarea {
+    display: block;
+    width: 100%;
+    padding: 0.3rem 0;
+    margin: 0.5rem 0 1rem 0;
+    text-align: center;
+    font-size: 1rem ;
+}
+#section-contact textarea {
+    height: 4rem ;
+}
